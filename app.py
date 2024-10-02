@@ -28,7 +28,7 @@ salaries_df = pd.DataFrame(
 
 # By default, unless you choose a different LLM, it will use BambooLLM.
 # You can get your free API key signing up at https://pandabi.ai (you can also configure it in your .env file)
-os.environ["PANDASAI_API_KEY"] = "YOUR_API_KEY"
+os.environ["PANDASAI_API_KEY"] = "$2a$10$oVeMbhINZVGYJgxw450XVOLwEGLj/hGoVebbb/15DaXJtqbL5fdx6"
 
 agent = Agent(
     [employees_df, salaries_df],
